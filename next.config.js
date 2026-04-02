@@ -5,6 +5,6 @@ const nextConfig = {
       { protocol: 'https', hostname: 'images.unsplash.com' },
     ],
   },
-  eslint: { ignoreDuringBuilds: true },
 };
+
 module.exports = nextConfig;
