@@ -1,0 +1,176 @@
+export const SERVICES = [
+  {
+    id: 'room-makeover',
+    title: 'Room Makeover',
+    emoji: '🛋️',
+    price: 'From $200',
+    description: 'Empty or full rooms — we work with what you have or create a brand new look from scratch. Includes measurements, layout, paint colors & a full Design Board.',
+    details: ['Written measurements & furniture layout', 'Paint color selection', 'Design Board with shopping pictures', 'Full Design Plan handed to you same day'],
+    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+  },
+  {
+    id: 'color-consultation',
+    title: 'Color Consultation',
+    emoji: '🎨',
+    price: 'From $150',
+    description: 'Large physical color samples are sent directly to your home so you can see exactly how they look in your light before committing.',
+    details: ['Interior & exterior color selection', 'Large physical samples mailed to you', 'Coordinated color flow throughout home', 'Trim & accent color guidance'],
+    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80',
+  },
+  {
+    id: 'feng-shui',
+    title: 'Feng Shui',
+    emoji: '☯️',
+    price: 'From $175',
+    description: "It's not airy-fairy — it's energy and flow. When something feels off in your space (or your life), let's move some energy around and shake things up.",
+    details: ['Full energy assessment of your space', 'Furniture repositioning for better flow', 'Color & element balancing', 'Practical, non-mystical approach'],
+    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80',
+  },
+  {
+    id: 'staging',
+    title: 'Home Staging',
+    emoji: '🏡',
+    price: 'From $250',
+    description: 'Sell faster and for more money. We stage your home to appeal to buyers while showcasing its best features — without a huge investment.',
+    details: ['Furniture arrangement optimization', 'Declutter & depersonalize guidance', 'Curb appeal recommendations', 'Buyer-focused styling'],
+    image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80',
+  },
+  {
+    id: 'downsizing',
+    title: 'Downsizing Help',
+    emoji: '📦',
+    price: 'From $200',
+    description: 'Moving into a smaller home? We create a furniture layout plan BEFORE you move so everything fits perfectly from day one — no stress, no guessing.',
+    details: ['Pre-move furniture placement plan', 'What to keep vs. donate guidance', 'New space optimization', 'Available before or after the move'],
+    image: 'https://images.unsplash.com/photo-1615971677499-5467cbab01c0?w=800&q=80',
+  },
+  {
+    id: 'virtual',
+    title: 'Virtual Decorating',
+    emoji: '💻',
+    price: 'From $175',
+    description: "Can't meet in person? No problem. We walk through your home together over video — you get the same full Design Plan, just done remotely.",
+    details: ['Video walkthrough of your space', 'Full Design Plan delivered digitally', 'Available nationwide', 'Same results as in-person'],
+    image: 'https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=800&q=80',
+  },
+];
+
+export const PROJECTS = [
+  {
+    id: 'living-room-warm',
+    title: 'Warm & Cozy Living Room',
+    room: 'Living Room',
+    description: 'Transformed a bare room into a warm, inviting family space using mostly existing furniture in a new arrangement with new accent colors.',
+    before: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80',
+    after: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80',
+    tag: 'Room Makeover',
+  },
+  {
+    id: 'bedroom-refresh',
+    title: 'Master Bedroom Refresh',
+    room: 'Bedroom',
+    description: 'A complete bedroom redesign on a budget — new layout, paint colors, and a curated shopping list the client loved.',
+    before: 'https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80',
+    after: 'https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=800&q=80',
+    tag: 'Room Makeover',
+  },
+  {
+    id: 'open-plan',
+    title: 'Open-Plan Family Home',
+    room: 'Full Home',
+    description: 'Cohesive color flow through an open floor plan with distinct zones that feel unique but connected.',
+    before: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    after: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80',
+    tag: 'Color Consultation',
+  },
+  {
+    id: 'kids-room',
+    title: "Kid's Room Makeover",
+    room: 'Kids Room',
+    description: 'Fun, functional, and age-appropriate design that the kids (and parents) absolutely loved.',
+    before: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80',
+    after: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=800&q=80',
+    tag: 'Room Makeover',
+  },
+];
+
+export const TESTIMONIALS = [
+  {
+    id: 1,
+    name: 'Gabby M.',
+    location: 'San Antonio, TX',
+    text: "I hired Diane for 5 rooms in my house. She rearranged furniture, hung artwork and gave me a workable design plan. I think she's amazing and am so glad I found her!",
+    rating: 5,
+    service: 'Full Home',
+  },
+  {
+    id: 2,
+    name: 'Anna C.',
+    location: 'San Antonio, TX',
+    text: "I had recently moved to the area and needed help incorporating my furniture and style into my new home. Diane spent an hour with me and left me with great ideas and paint samples. Very easy to work with.",
+    rating: 5,
+    service: 'New Home',
+  },
+  {
+    id: 3,
+    name: 'Jennifer R.',
+    location: 'San Antonio, TX',
+    text: "We love our home but the contents needed a bit of an update. Diane was wonderful about using some of the things we had and making recommendations for new things. Our home looks amazing!",
+    rating: 5,
+    service: 'Room Makeover',
+  },
+  {
+    id: 4,
+    name: 'Michelle T.',
+    location: 'San Antonio, TX',
+    text: "I have used Diane's services three separate times — living room, master bedroom and master bath. She is incredible!! The best thing is she sends you pictures and links to buy the items which makes it so easy.",
+    rating: 5,
+    service: 'Multiple Rooms',
+  },
+  {
+    id: 5,
+    name: 'David K.',
+    location: 'San Antonio, TX',
+    text: "Diane designed my son's room and understood everything according to our needs. She picked great merchandise that he loved. Any room that we re-decorate, I will be using this service again.",
+    rating: 5,
+    service: "Kids Room",
+  },
+  {
+    id: 6,
+    name: 'Susan L.',
+    location: 'San Antonio, TX',
+    text: "I loved working with Diane to help us solve some design challenges in our new home. Super responsive and gave me ideas I hadn't considered. We were equipped with everything we needed at the end.",
+    rating: 5,
+    service: 'New Home',
+  },
+];
+
+export const STATS = {
+  years: 20,
+  reviews: 300,
+  awards: 12,
+  rooms: 1000,
+};
+
+export const PROCESS = [
+  {
+    step: '01',
+    title: 'Book a Consultation',
+    body: 'Call or email to get your pre-quoted flat rate. No hourly surprises — you know the price before we even meet.',
+  },
+  {
+    step: '02',
+    title: 'We Visit Your Home',
+    body: "Diane comes to you (or we meet virtually). In 2 hours we walk through your space, understand your style, and build the plan together.",
+  },
+  {
+    step: '03',
+    title: 'You Get the Plan',
+    body: 'Before we leave, you have a complete Design Plan in your hands — measurements, colors, layout, and a Design Board with pictures of every item.',
+  },
+  {
+    step: '04',
+    title: 'You Shop Your Way',
+    body: "We never buy things for you — you shop where YOU want, when your budget allows. No pressure, no surprises, no buyer's remorse.",
+  },
+];
